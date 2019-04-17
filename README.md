@@ -8,4 +8,11 @@ This project assumes you are at least farmiliar with the concepts TDD, MVVM as a
 The end product will be a simple news aggregator but the product itself is simple a means to demonstrate the use of these components.  
 
 ## Project Setup
-We will start by going through the steps to create a new Android project 
+
+**Note:** Setting up DataBinding support to an existing project is often more diffucult than when starting a project from scratch.  For existing projects, please see **TODO add link to section** for details and common issues related to adding data binding to existing Android projects.  
+
+1. Open Android Studio and create a new project, make sure to check the *include Kotlin support* box from the *Create New Project* window
+2. From the *Target Android Devices* screen change the minimum Phone and Tablet API to *API 21: Android 5.0 (Lollipop)*.  (API 21 is not the required minimum API for data binding, I am targeting API 21 to reduce the amount of older devices this project needs to support.  If any part of this setup requires a workaround for sub-21 targeted apps I will attempted to point it out and address it.  
+
+
+
